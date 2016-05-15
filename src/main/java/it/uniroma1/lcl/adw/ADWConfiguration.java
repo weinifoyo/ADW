@@ -153,7 +153,7 @@ public class ADWConfiguration
 	
 	public boolean getMirrorPOSTaggingCondition() 
 	{
-		return  Boolean.valueOf(config.getString("discardStopWords"));
+		return  Boolean.valueOf(config.getString("mirrorPOSTagging"));
 	}
 	
 	public static <T extends Enum<T>> T getEnumFromString(Class<T> c, String string)
